@@ -1,0 +1,92 @@
+body {
+    margin: auto;
+    font-family: "Lucida Grande";
+
+}
+  
+a {
+    text-decoration: none;
+}
+
+.menu {
+    font-family: "Lucida Grande";
+    font-weight: bold;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(106, 182, 233);
+    border-radius: 5px;
+    font-size: 18px;
+}
+label{
+    font-family: "Lucida Grande";
+    font-size: 20pt;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 5px;
+    background: none;
+    display: block;
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+.menu ul li a:hover {
+    display: block;
+    color: brown;
+    box-shadow: inset 0px 0px 5px #000;
+}
+
+.menu ul li .dropdown{
+    display: none;
+}
+
+.menu ul li:hover .dropdown{
+    display: block;
+    background:  rgb(106, 182, 233);
+    position: absolute;
+    padding: 10px;
+}
+
+.menu ul li:hover .dropdown li {
+    display: block;
+}
+
+.menu ul li:hover .dropdown li a {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.menu ul li:hover .dropdown li a:hover {
+    background: rgb(106, 182, 233);
+    box-shadow: inset 0px 0px 5px #000;
+}
+
+.top-wrapper {
+padding: 200px 0 100px 0;
+background-image: url(https://statik.tempo.co/data/2020/07/09/id_951348/951348_720.jpg);
+background-size: cover;
+color: rgb(229, 235, 241);
+text-align: center;
+}
+
+.top-wrapper h2 {
+opacity: 0.7;
+letter-spacing: 4px;
+}
